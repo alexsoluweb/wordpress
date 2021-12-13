@@ -1,6 +1,6 @@
 /*
 * ###########################################################################
-* 								  HOW TO USE
+* 				   HOW TO USE
 * ############################################################################
 *
 * Not duplicated categories example:
@@ -22,6 +22,8 @@
 * STEP 3) Go to Wordpress menu in settings/permalink and hit the save button to rewrite the rules of Wordpress.
 *
 * DONE!
+*
+* TODO: Make this fully automated without adding duplicated categories manually.
 */
 
 
