@@ -45,8 +45,8 @@ function asw_add_rewrite_rules(){
 	}
 }
 
-add_filter( 'term_link', 'asw_new_cat_link', 10, 3 );
-function asw_new_cat_link( $permalink, $term, $taxonomy ){	
+add_filter( 'term_link', 'asw_new_permalinks', 10, 3 );
+function asw_new_permalinks( $permalink, $term, $taxonomy ){	
 	if ($term->taxonomy == "category"){
 		$slugs 		= str_replace(  home_url() , '' , $permalink);
 		$slugs 		= trim($slugs, "/");
