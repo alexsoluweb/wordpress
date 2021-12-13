@@ -38,10 +38,6 @@ function asw_add_rewrite_rules(){
 	$ASW_MAIN_CAT_SLUG_REWRITED = array(
 		// ADD HERE YOUR DUPLICATED SUB-CATEGORIES
 		// array("duplicated_slug", "new_permalink", "slug_id"),
-		array ("anxiete-comprendre", "/anxiete/comprendre", 14),
-		array ("stress-comprendre", "/stress/comprendre" , 21),
-		array ("subsubcat-comprendre-stress", "/stress/comprendre/subsubcat", 28),
-		array ("subsubcat2-subsubcat-comprendre-stress", "/stress/comprendre/subsubcat/subsubcat2", 30),
 	);
 	
 	foreach($ASW_MAIN_CAT_SLUG_REWRITED as $cat){
