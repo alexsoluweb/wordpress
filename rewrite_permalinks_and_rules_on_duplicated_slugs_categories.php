@@ -7,11 +7,16 @@
 * Not duplicated categories example:
 * 				One hierarchical: 		category/maincat1/
 * 				Two hierarchical: 		category/maincat1/subcat
-* 				Three hierarchical: 	category/maincat1/subcat/subsubcat
+* 				Three hierarchical: 		category/maincat1/subcat/subsubcat
 * Duplicated categories structures slug must be like so:
 * 				One hierarchical: 		category/maincat2/
 * 				Two hierarchical: 		category/maincat2/subcat-maincat2
-* 				Three hierarchical: 	category/maincat2/subcat-maincat2/subsubcat-subcat-maincat2
+* 				Three hierarchical: 		category/maincat2/subcat-maincat2/subsubcat-subcat-maincat2
+*
+* New permalinks on duplicated categories will generate this:
+* 				One hierarchical: 		category/maincat2/
+* 				Two hierarchical: 		category/maincat2/subcat
+* 				Three hierarchical: 		category/maincat2/subcat/subsubcat	
 *
 * STEP 1) Add your duplicated sub categories in the array $ASW_MAIN_CAT_SLUG_REWRITED
 * 				ex: array("duplicated_slug", "new_permalink", "term_id"),
