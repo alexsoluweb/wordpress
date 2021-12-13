@@ -29,6 +29,7 @@
 * STEP 2) Adjust the permalinks prefix in the variable $PREFIX_PERMALINK
 *				Default prefix is "category" 
 *				If there is no prefix, then put an empty string like so ""
+*
 * STEP 3) Go to Wordpress menu in settings/permalink and hit the save button to rewrite the rules of Wordpress.
 *
 * DONE!
