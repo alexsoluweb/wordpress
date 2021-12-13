@@ -24,7 +24,10 @@
 *
 * DONE!
 *
-* TODO: Make this fully automated without adding duplicated categories manually.
+* ##########################################################################
+* 				   TODO 
+* ##########################################################################
+* 	Make this fully automated without adding duplicated categories manually =]
 */
 
 
