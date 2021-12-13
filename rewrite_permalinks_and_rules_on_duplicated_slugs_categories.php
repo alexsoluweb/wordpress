@@ -23,14 +23,14 @@
 * ###########################################################################
 *
 * STEP 1) Add your duplicated sub categories data in the array $ASW_CAT_SLUG_REWRITED
-				array("duplicated_slug", "new_permalink", "term_id")
-				$duplicated_slug:  
-					Duplicated categories structures slugs at (B)
-				$new_permalink: 
-					New permalinks on duplicated categories at (C)
-				$term_id: 	
-					Find the category ID for the particular duplicated category. 
-					Refer to this link: https://www.wpbeginner.com/beginners-guide/how-to-find-post-category-tag-comments-or-user-id-in-wordpress/
+*				array("duplicated_slug", "new_permalink", "term_id")
+*				$duplicated_slug:  
+*					Duplicated categories structures slugs at (B)
+*				$new_permalink: 
+*					New permalinks on duplicated categories at (C)
+*				$term_id: 	
+*					Find the category ID for the particular duplicated category. 
+*					Refer to this link: https://www.wpbeginner.com/beginners-guide/how-to-find-post-category-tag-comments-or-user-id-in-wordpress/
 * 				
 *				ex: array("subcat-maincat2", "category/maincat2/subcat", "10"),
 *
@@ -42,6 +42,8 @@
 *
 * DONE!
 *
+* NOTE:The Free Wordpress Plugin Project (at a startup stage) can be found here: https://github.com/alexsoluweb/wp_plugin_pretty_permalinks_on_duplicated_categories/ 
+* All contributors are welcome!
 */
 
 
