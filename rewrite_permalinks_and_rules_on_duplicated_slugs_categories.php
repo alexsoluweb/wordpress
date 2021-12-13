@@ -55,7 +55,7 @@ function asw_add_rewrite_rules(){
 	);
 	
 	foreach($ASW_CAT_SLUG_REWRITED as $cat){
-		add_rewrite_rule($PREFIX_PERMALINK . "/" . $cat[1] . '/?$', 'index.php?cat='.$cat[2] ,'top');
+		add_rewrite_rule($PREFIX_PERMALINK . "/?" . $cat[1] . '/?$', 'index.php?cat='.$cat[2] ,'top');
 	}
 }
 
