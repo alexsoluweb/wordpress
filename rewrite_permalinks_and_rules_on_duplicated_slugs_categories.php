@@ -22,7 +22,7 @@
 * 				   HOW TO USE
 * ###########################################################################
 *
-* STEP 1) Add your duplicated sub categories in the array $ASW_MAIN_CAT_SLUG_REWRITED
+* STEP 1) Add your duplicated sub categories in the array $ASW_CAT_SLUG_REWRITED
 * 				ex: array("duplicated_slug", "new_permalink", "term_id"),
 *				array("subcat-maincat2", "category/maincat2/subcat", "10"),
 *
@@ -36,7 +36,9 @@
 * ##########################################################################
 * 				   TODO 
 * ##########################################################################
-* 	Make this fully automated without adding duplicated categories manually =]
+*
+* Make this fully automated without adding duplicated categories manually =]
+*
 */
 
 
@@ -44,12 +46,12 @@ add_action('init', 'asw_add_rewrite_rules');
 function asw_add_rewrite_rules(){
 	// ADJUST HERE THE PERMALINKS PREFIX
 	$PREFIX_PERMALINK = "category";
-	$ASW_MAIN_CAT_SLUG_REWRITED = array(
+	$ASW_CAT_SLUG_REWRITED = array(
 		// ADD HERE YOUR DUPLICATED SUB-CATEGORIES
 		// array("duplicated_slug", "new_permalink", "slug_id"),
 	);
 	
-	foreach($ASW_MAIN_CAT_SLUG_REWRITED as $cat){
+	foreach($ASW_CAT_SLUG_REWRITED as $cat){
 		add_rewrite_rule($PREFIX_PERMALINK . $cat[1] . '/?$', 'index.php?cat='.$cat[2] ,'top');
 	}
 }
