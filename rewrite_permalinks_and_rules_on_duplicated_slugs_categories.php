@@ -1,8 +1,8 @@
 <?php
 /*
 * ###########################################################################
-* 				   HOW TO USE
-* ############################################################################
+* 				   DESCRIPTION
+* ###########################################################################
 *
 * Not duplicated categories example:
 * 				One hierarchical: 		category/maincat1/
@@ -17,6 +17,10 @@
 * 				One hierarchical: 		category/maincat2/
 * 				Two hierarchical: 		category/maincat2/subcat
 * 				Three hierarchical: 		category/maincat2/subcat/subsubcat	
+*
+* ###########################################################################
+* 				   HOW TO USE
+* ###########################################################################
 *
 * STEP 1) Add your duplicated sub categories in the array $ASW_MAIN_CAT_SLUG_REWRITED
 * 				ex: array("duplicated_slug", "new_permalink", "term_id"),
