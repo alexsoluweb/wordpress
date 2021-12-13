@@ -5,18 +5,18 @@
 * ###########################################################################
 *
 * (A) Not duplicated categories structure slugs example:
-* 				One hierarchical: 		category/maincat1/
-* 				Two hierarchical: 		category/maincat1/subcat
-* 				Three hierarchical: 		category/maincat1/subcat/subsubcat
+* 				One hierarchical: 		maincat1/
+* 				Two hierarchical: 		maincat1/subcat
+* 				Three hierarchical: 		maincat1/subcat/subsubcat
 * (B) Duplicated categories structures slugs must be like so:
-* 				One hierarchical: 		category/maincat2/
-* 				Two hierarchical: 		category/maincat2/subcat-maincat2
-* 				Three hierarchical: 		category/maincat2/subcat-maincat2/subsubcat-subcat-maincat2
+* 				One hierarchical: 		maincat2/
+* 				Two hierarchical: 		maincat2/subcat-maincat2
+* 				Three hierarchical: 		maincat2/subcat-maincat2/subsubcat-subcat-maincat2
 *
 * (C) New permalinks on duplicated categories will generate this:
-* 				One hierarchical: 		category/maincat2/
-* 				Two hierarchical: 		category/maincat2/subcat
-* 				Three hierarchical: 		category/maincat2/subcat/subsubcat	
+* 				One hierarchical: 		maincat2/
+* 				Two hierarchical: 		maincat2/subcat
+* 				Three hierarchical: 		maincat2/subcat/subsubcat	
 *
 * ###########################################################################
 * 				   HOW TO USE
