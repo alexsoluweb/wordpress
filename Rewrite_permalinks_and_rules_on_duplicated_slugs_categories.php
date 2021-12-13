@@ -49,10 +49,10 @@ function asw_add_rewrite_rules(){
 add_filter( 'term_link', 'asw_new_cat_link', 10, 3 );
 function asw_new_cat_link( $permalink, $term, $taxonomy ){	
 	if ($term->taxonomy == "category"){
-		$slugs  = str_replace(  home_url() , '' , $permalink);
-		$slugs = trim($slugs, "/");
-		$slugs = explode("/",$slugs);
-		$new_permalink = home_url();
+		$slugs 		= str_replace(  home_url() , '' , $permalink);
+		$slugs 		= trim($slugs, "/");
+		$slugs 		= explode("/",$slugs);
+		$new_permalink 	= home_url();
 		
 		foreach($slugs as $slug){
 			if(strpos($slug, '-') != false){
