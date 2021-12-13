@@ -4,16 +4,16 @@
 * 				   DESCRIPTION
 * ###########################################################################
 *
-* Not duplicated categories example:
+* (A) Not duplicated categories structure slugs example:
 * 				One hierarchical: 		category/maincat1/
 * 				Two hierarchical: 		category/maincat1/subcat
 * 				Three hierarchical: 		category/maincat1/subcat/subsubcat
-* Duplicated categories structures slug must be like so:
+* (B) Duplicated categories structures slugs must be like so:
 * 				One hierarchical: 		category/maincat2/
 * 				Two hierarchical: 		category/maincat2/subcat-maincat2
 * 				Three hierarchical: 		category/maincat2/subcat-maincat2/subsubcat-subcat-maincat2
 *
-* New permalinks on duplicated categories will generate this:
+* (C) New permalinks on duplicated categories will generate this:
 * 				One hierarchical: 		category/maincat2/
 * 				Two hierarchical: 		category/maincat2/subcat
 * 				Three hierarchical: 		category/maincat2/subcat/subsubcat	
@@ -22,9 +22,17 @@
 * 				   HOW TO USE
 * ###########################################################################
 *
-* STEP 1) Add your duplicated sub categories in the array $ASW_CAT_SLUG_REWRITED
-* 				ex: array("duplicated_slug", "new_permalink", "term_id"),
-*				array("subcat-maincat2", "category/maincat2/subcat", "10"),
+* STEP 1) Add your duplicated sub categories data in the array $ASW_CAT_SLUG_REWRITED
+				array("duplicated_slug", "new_permalink", "term_id")
+				$duplicated_slug:  
+					Duplicated categories structures slugs at (B)
+				$new_permalink: 
+					New permalinks on duplicated categories at (C)
+				$term_id: 	
+					Find the category ID for the particular duplicated category. 
+					Refer to this link: https://www.wpbeginner.com/beginners-guide/how-to-find-post-category-tag-comments-or-user-id-in-wordpress/
+* 				
+*				ex: array("subcat-maincat2", "category/maincat2/subcat", "10"),
 *
 * STEP 2) Adjust the permalinks prefix in the variable $PREFIX_PERMALINK
 *				Default prefix is "category" 
