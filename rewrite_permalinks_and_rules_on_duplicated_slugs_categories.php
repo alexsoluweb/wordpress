@@ -42,15 +42,6 @@
 *
 * DONE!
 *
-* ##########################################################################
-* 				   TODO 
-* ##########################################################################
-*
-* Make this fully automated without adding duplicated categories manually
-* 0) for each categories do:
-* 1) find slugs that has "-"
-* 2) construct new permalink
-* 3) get the term id
 */
 
 
