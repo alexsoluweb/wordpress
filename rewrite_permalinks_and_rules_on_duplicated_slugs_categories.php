@@ -42,7 +42,9 @@
 *
 * DONE!
 *
-* NOTE:The Free Wordpress Plugin Project (at a startup stage) can be found here: https://github.com/alexsoluweb/wp_plugin_pretty_permalinks_on_duplicated_categories/ 
+* NOTE:
+* An Open Source Free Wordpress Plugin Project (at a startup stage) can be found here: 
+* https://github.com/alexsoluweb/duplicated-sub-category-permalink-fixer
 * All contributors are welcome!
 */
 
