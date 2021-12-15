@@ -43,8 +43,9 @@
 * DONE!
 *
 * NOTE:
-* An Open Source Free Wordpress Plugin Project (at a startup stage) can be found here: 
+* An Open Source Free Wordpress Plugin Project (at a startup stage) can be found here:
 * https://github.com/alexsoluweb/duplicated-sub-category-permalink-fixer
+* The goal of this plugin is to automate all this process without any user interventions.
 * All contributors are welcome!
 */
 
