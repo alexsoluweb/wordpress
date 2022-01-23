@@ -64,7 +64,7 @@ add_action('admin_head', function(){
             height: 100vh;
         }
         #wpbody, #wpbody-content, #root, #root > .App, #root .snippet-list-wrap, #root .edit-snippet-wrap{
-            height: calc(100vh - 50px);
+            height: calc(100vh - 40px);
         }
         html.wp-toolbar{
             padding-top: 0px;
@@ -100,7 +100,10 @@ add_action('admin_head', function(){
         }
         .list-container .title{
             line-height: 1 !important;
-            font-size: 12px !important;
+            font-size: 10px !important;
+        }
+        .list-actions > div > div{
+            font-size: 8px !important;
         }
         </style>
         
