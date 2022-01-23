@@ -1,7 +1,8 @@
 <?php 
 /**
- *   WPCodeBox My Custom Layout Setup
-*/
+ *   WPCodeBox Editor in the Middle layout v1.0.0
+ *   Download the snippet and set it to run in the "Admin Area"
+ */
  
 add_action('admin_head', function(){
     
@@ -69,7 +70,20 @@ add_action('admin_head', function(){
         }
         #menu-dashboard{
             display: none;
-        } 
+        }
+        ::-webkit-scrollbar {
+            height: 3px;
+            width: 3px;
+            background: #000;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #c1c1c1;
+            -webkit-border-radius: 1ex;
+            -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+        }
+        ::-webkit-scrollbar-corner {
+            background: #000;
+        }
         </style>
         
         <script>
