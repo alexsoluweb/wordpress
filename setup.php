@@ -1,8 +1,7 @@
 <?php 
 /**
- *   WPCodeBox Editor in the Middle layout v1.0.0
- *   Download the snippet and set it to run in the "Admin Area"
- */
+ *   WPCodeBox My Custom Layout Setup
+*/
  
 add_action('admin_head', function(){
     
